@@ -1,6 +1,5 @@
-# Hello-Github
-This Repository Is Just Used For Excerise
-This file will be used record my own excerise from 2021.04.02
+# About
+This Repository Is Just Used For My Own Excerise,mainly Written by C++/C.
 Author：FranzKafka
 
 1.2021.04.02
