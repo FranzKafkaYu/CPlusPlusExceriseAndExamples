@@ -1,5 +1,5 @@
 /**
- * @file EvsCrypto.h
+ * @file Md5CheckUtils.h
  * @brief 
  * @author FranzKafkaYu (franzkafkayu@gmail.com)
  * @version 1.0
@@ -14,8 +14,9 @@
  * </table>
  */
 
-#ifndef __EVS_CRYPTO_H__
-#define __EVS_CRYPTO_H__
+#ifndef __MD5_CHECK_UTILS_H__
+#define __MD5_CHECK_UTILS_H__
+
 
 //Avoid header files occupied repeatly
 //#pragma once

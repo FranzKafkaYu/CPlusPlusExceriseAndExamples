@@ -1,5 +1,5 @@
 /**
- * @file EvsCrypto.cpp
+ * @file Md5CheckUtils.cpp
  * @brief 
  * @author FranzKafkaYu (franzkafkayu@gmail.com)
  * @version 1.0
@@ -14,15 +14,12 @@
  * </table>
  */
 
-#include "EvsCrypto.h"
-
 #include <errno.h>
 #include <stdlib.h>
 #include <string.h>
 
 #include <iostream>
-
-#include "EvsTracer.h"
+#include "Md5CheckUtils.h"
 
 static unsigned char PADDING[64] = {0x80, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
                                     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
