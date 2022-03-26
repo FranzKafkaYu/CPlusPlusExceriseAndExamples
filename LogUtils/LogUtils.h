@@ -104,7 +104,7 @@ extern "C"
     int getLogLevel(void);
     void setLogLevel(int newLevel);
     void updateLogLevel(void);
-	int logPrintForOutSider(int loglevel,char *format,...)
+    int logPrintForOutSider(int loglevel,char *format,...)
 
 #ifdef __cplusplus
 }
