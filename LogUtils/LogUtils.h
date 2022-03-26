@@ -9,13 +9,13 @@ extern "C"
 
 #include <utils/Log.h>
 
-#define DEFAULT_LOG_LEVEL 8 //LOG8
+#define DEFAULT_LOG_LEVEL  10
 
 
 #ifdef LOG_MODULE_TAG
 #undef LOG_MODULE_TAG
 #endif
-#define LOG_MODULE_TAG ""
+#define LOG_MODULE_TAG "LogUtils"
 
 //some default color here,which will show different color when log print in Linux
 
