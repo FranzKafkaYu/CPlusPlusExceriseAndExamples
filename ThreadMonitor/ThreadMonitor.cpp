@@ -13,7 +13,7 @@ ThreadMonitor *ThreadMonitor::mThreadMonitor = nullptr;
 
 ThreadMonitor::ThreadMonitor()
 {
-    AALOGI("%s", __FUNCTION__);
+    ALOGI("%s", __FUNCTION__);
     mThreadMonitor = this;
     mActived = false;
     mThreadRunflag = false;
